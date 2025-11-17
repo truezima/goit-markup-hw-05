@@ -553,7 +553,6 @@ display: flex;
 
 /* #region modal-callback */
 .modal-overlay {
-    display: none;
     position: fixed;
     top:0;
     left:0;
@@ -564,6 +563,8 @@ display: flex;
     justify-content: center;
     background-color: rgba(46, 47, 66, 0.4);
 }
+
+is-open {}
 .modal-callback{
     width: 408px;
     padding: 20px;
