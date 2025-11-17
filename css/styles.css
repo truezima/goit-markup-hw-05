@@ -532,6 +532,9 @@ display: flex;
     background-color: #4D5AE5;
     display: inline;
 }
+.subscribe-icon {
+    fill:#ffffff;
+}
 .subscribe-btn:hover,
 .subscribe-btn:focus,
 .subscribe-btn:active {
