@@ -608,27 +608,34 @@ is-open {}
 }
 
 .callback-form-input {
-    padding: 8px 16px;
+    padding: 8px 16px 8px 38px;
     border: 1px solid #2E2F42;
     border-radius: 4px;
     width: 360px;
     height: 40px;
     margin-top: 4px;
+    color: #2E2F42;
     
 }
 .callback-form-input:focus {    
     border: 1px solid #4D5AE5;
     outline: none; 
 }
-
+.callback-form-input:focus + .callback-icon {
+    stroke: #4D5AE5;
+}
 .callback-form-textarea {
-       padding: 8px 16px;
+    padding: 8px 16px;
     border: 1px solid #2E2F42;
     border-radius: 4px;
     width: 360px;
     height: 120px;
     margin-top: 4px;
     max-width: 100%;
+}
+.callback-form-textarea:focus {
+    border: 1px solid #4D5AE5;
+    outline: none;     
 }
 .callback-form-btn {
     border-radius: 4px;
