@@ -605,6 +605,7 @@ is-open {}
     line-height: 117%;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    position: relative;
 }
 
 .callback-form-input {
@@ -614,7 +615,15 @@ is-open {}
     width: 360px;
     height: 40px;
     margin-top: 4px;
-    color: #2E2F42;
+    color: #2E2F42;    
+}
+.callback-icon {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    transition: stroke 250ms ease;
+    fill: transparent;
+    stroke: #2E2F42;
     
 }
 .callback-form-input:focus {    
