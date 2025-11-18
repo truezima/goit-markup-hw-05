@@ -781,13 +781,17 @@ display: flex;
 .chk-icon{
 
 }
-.callback-form-span:checked + .callback-form-span {
+.callback-form-chkbox:checked ~ .callback-form-span {
     background-color: #404bbf; 
      border: none; 
      fill:#F4F4FD; 
 }
+.callback-form-chkbox:focus {
+    outline: none;
+}
 .callbackform-privacy-a {
     color: #4d5ae5; 
+    text-decoration: underline;
 }
 
 
