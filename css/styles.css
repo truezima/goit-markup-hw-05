@@ -776,6 +776,7 @@ display: flex;
     align-items: center;
     justify-content: center; 
     fill: transparent; 
+    margin-right: 8px;
 }
 
 .chk-icon{
@@ -787,11 +788,7 @@ display: flex;
      fill:#F4F4FD; 
 }
 
-.callback-form-chkbox:checked ~ .callback-form-span {
-    background-color: #404bbf; 
-     border: none; 
-     fill:#F4F4FD; 
-}
+
 .callback-form-chkbox:focus {
     outline: none;
 }
