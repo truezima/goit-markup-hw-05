@@ -36,7 +36,7 @@
     <section class="main-section">
     <div class="container main-container">
        <h1 class="main-title">Effective Solutions for Your Business</h1>
-       <button type="button" class="main-button">Order Service</button>
+       <button type="button" class="main-button" data-modal-open>Order Service</button>
     </div>
     </section>
  <!-- #endregion main-section -->
@@ -393,9 +393,9 @@
    
   </div>  
   </footer> 
-  <div class="modal-overlay">
+  <div class="modal-overlay is-open" data-modal>
     <div class="modal-callback">
-        <button type="button" class="modal-callback-close">
+        <button type="button" class="modal-callback-close" data-modal-close>
          <svg class="modal-close-svg" height="8" width="8">
                     <use href="./images/icons.svg#close-icon"></use>
               </svg>
@@ -459,5 +459,6 @@
     </div>    
   </div> 
 <!-- #endregion site-footer -->  
+ <script src="./js/modal.js"></script> 
 </body>
 </html>
