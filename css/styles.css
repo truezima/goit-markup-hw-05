@@ -693,17 +693,16 @@ display: flex;
      padding-left: 38px;
      outline: transparent; 
      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-     
+
    
 }
 .callback-icon {
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    transition: fill 250ms ease,
-                border 250ms ease;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2E2F42;
-    
+    left: 16px;    
     
 }
 .callback-form-input:focus {    
