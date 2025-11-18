@@ -447,7 +447,12 @@
             </div> 
             <div class="chkbox-wrapper">       
                     <input type="checkbox" name="user-privacy"  id="user-privacy" value="true" class="callback-form-chkbox">
-                    <label class="callback-form-p" for="user-privacy">I accept the terms and conditions of the <span class="callback-form-span"><a href="#">Privacy Policy</a></span></label>
+                    <label class="callback-form-p" for="user-privacy">
+                        <span class="callback-form-span"> 
+                            <svg class="chk-icon" height="16" width="16">
+                              <use href="./images/icons.svg#chk-icon"></use>
+                           </svg>
+                        </span>I accept the terms and conditions of the <a href="#" class="callbackform-privacy-a">Privacy Policy</a></label>
             </div> 
             <button type="submit" class="callback-form-btn">Send</button>
         </form>
