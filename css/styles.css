@@ -430,7 +430,7 @@ button:active, button:hover, button:focus {
 }
 .footer-logo-block {
     max-width: 264px;
-    margin-right: 120px;
+   
 }
 .footer-logo {
   color:#4D5AE5;
@@ -447,6 +447,8 @@ button:active, button:hover, button:focus {
     color:#F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    font-weight: 400;
+    font-size: 16px;
 }
 .footer-icons-block{
     max-width:208px;
@@ -532,6 +534,7 @@ display: flex;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #ffffff;
+    width: 165px;
 
 }
 
