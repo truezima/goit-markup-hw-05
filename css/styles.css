@@ -510,20 +510,33 @@ display: flex;
   align-items: center;
   gap: 24px;
 }
-.subscribe-lbl {
+.subscribe-p {
     display: flex;
     flex-direction: column;
-   
+   margin-bottom: 16px;
     color:#ffffff;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .subscribe-input {
     border: solid 1px #ffffff;
     border-radius: 4px;
-    background-color: #2E2F42;
+    background-color: transparent;
+    width: 264px;
+    height: 40px; 
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+
+}
+
+.subscribe-input::placeholder {
+     color: #ffffff;
 }
 .subscribe-btn {
     border-radius: 4px;
@@ -533,9 +546,23 @@ display: flex;
     display: flex;
     align-items: center;
     gap: 6px;
+    min-width: 165px;
+     justify-content: center;
+     align-items: center; 
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+       line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        border: none; 
+
+
 }
 .subscribe-icon {
     fill:#ffffff;
+    margin-left: 16px;
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus,
