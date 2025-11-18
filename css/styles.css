@@ -502,7 +502,7 @@ button:active, button:hover, button:focus {
 }
 .subscribe-form {
    display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 24px; 
 }
 .subscribe-row{
