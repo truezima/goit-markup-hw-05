@@ -403,34 +403,46 @@
         <p class="callback-form-title">Leave your contacts and we will call you back</p>
          
         <form class="callback-form">            
-           <div class="input-wrapper">
-            <label class="callback-form-label">
-               Name
-              <input type="text" name="name" class="callback-form-input"/>              
-            </label>
-            <svg class="callback-icon" height="13" width="13">
-                    <use href="./images/icons.svg#user-icon"></use>
-            </svg>
+           <div class="label-wrapper">
+                <label class="callback-form-label" for="user-name">
+                Name
+                <div class="input-wrapper">
+                        <input type="text" id="user-name" name="user-name" class="callback-form-input"/>              
+                        <svg class="callback-icon" height="13" width="13">
+                        <use href="./images/icons.svg#user-icon"></use>
+                        </svg>
+                </div>
+                </label>
             </div>
-
-            <label  class="callback-form-label">
-              Phone
-              <input type="tel" name="tel" class="callback-form-input" autofocus />
-              <svg class="callback-icon" height="13" width="13">
-                    <use href="./images/icons.svg#phone-icon"></use>
-              </svg>
-            </label>
-            <label  class="callback-form-label">
-              E-mail
-              <input type="email" name="email" class="callback-form-input" /> 
-              <svg class="callback-icon" height="13" width="13">
-                    <use href="./images/icons.svg#mail-icon"></use>
-              </svg>            
-            </label>
-            <label  class="callback-form-label">
-              Comment
-              <textarea name="comment" placeholder="Text input" class="callback-form-textarea"></textarea>           
-            </label>           
+         <div class="label-wrapper">
+                <label  class="callback-form-label">
+                Phone
+                <div class="input-wrapper">
+                    <input type="tel" name="tel" class="callback-form-input" autofocus />
+                    <svg class="callback-icon" height="13" width="13">
+                            <use href="./images/icons.svg#phone-icon"></use>
+                    </svg>
+                </div>
+                </label>
+            </div>
+            <div class="label-wrapper">
+                <label  class="callback-form-label">
+                E-mail
+                 <div class="input-wrapper">
+                    <input type="email" name="email" class="callback-form-input" /> 
+                    <svg class="callback-icon" height="13" width="13">
+                            <use href="./images/icons.svg#mail-icon"></use>
+                    </svg>   
+                </div>         
+                </label>
+            </div>
+             <div class="label-wrapper">
+                <label  class="callback-form-label">
+                Comment
+                 
+                <textarea name="comment" placeholder="Text input" class="callback-form-textarea"></textarea>           
+                </label>  
+            </div>         
                 <input type="checkbox" name="accept" value="accept" id="accept">
                 <label class="callback-form-p" for="accept">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
                 <button type="submit" class="callback-form-btn">Send</button>
