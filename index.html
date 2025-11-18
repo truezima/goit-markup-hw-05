@@ -406,46 +406,51 @@
            <div class="label-wrapper">
                 <label class="callback-form-label" for="user-name">
                 Name
+                </label>
                 <div class="input-wrapper">
                         <input type="text" id="user-name" name="user-name" class="callback-form-input"/>              
                         <svg class="callback-icon" height="24" width="18">
                         <use href="./images/icons.svg#user-icon"></use>
                         </svg>
                 </div>
-                </label>
+            
             </div>
          <div class="label-wrapper">
-                <label  class="callback-form-label">
+                <label  class="callback-form-label" for="user-tel">
                 Phone
+                 </label>
                 <div class="input-wrapper">
-                    <input type="tel" name="tel" class="callback-form-input" autofocus />
+                    <input type="tel" id="user-tel" name="user-tel" class="callback-form-input" autofocus />
                     <svg class="callback-icon" height="24" width="18">
                             <use href="./images/icons.svg#phone-icon"></use>
                     </svg>
                 </div>
-                </label>
+               
             </div>
             <div class="label-wrapper">
-                <label  class="callback-form-label">
+                <label  class="callback-form-label" for="user-mail">
                 E-mail
+                </label>
                  <div class="input-wrapper">
-                    <input type="email" name="email" class="callback-form-input" /> 
+                    <input type="email" id="user-mail" name="user-mail" class="callback-form-input" /> 
                     <svg class="callback-icon" height="24" width="18">
                             <use href="./images/icons.svg#mail-icon"></use>
                     </svg>   
                 </div>         
-                </label>
+                
             </div>
              <div class="label-wrapper">
-                <label  class="callback-form-label">
+                <label  class="callback-form-label" for=" user-comment">
                 Comment
                  
-                <textarea name="comment" placeholder="Text input" class="callback-form-textarea"></textarea>           
+                <textarea name="user-comment" id="user-comment" placeholder="Text input" class="callback-form-textarea"></textarea>           
                 </label>  
-            </div>         
-                <input type="checkbox" name="accept" value="accept" id="accept">
-                <label class="callback-form-p" for="accept">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
-                <button type="submit" class="callback-form-btn">Send</button>
+            </div> 
+            <div class="chkbox-wrapper">       
+                    <input type="checkbox" name="user-privacy"  id="user-privacy" value="true" class="visually-hidden">
+                    <label class="callback-form-p" for="user-privacy">I accept the terms and conditions of the <span class="callback-form-span"><a href="#">Privacy Policy</a></span></label>
+            </div> 
+            <button type="submit" class="callback-form-btn">Send</button>
         </form>
     </div>    
   </div> 
