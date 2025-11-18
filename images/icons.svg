@@ -60,17 +60,15 @@
 <symbol id="subscribe-icon" viewBox="0 0 24 24">
   <path d="M24 2L0 13.25L7.66994 15.6172L19.5 6.375L10.5017 16.4913L10.509 16.4936L10.5 16.4913V22L14.8013 17.8183L20.2501 19.5L24 2Z"  />
 </symbol>
-<symbol id="close-icon" viewBox="0 0 24 24">
-    <circle cx="12" cy="12" r="12" fill="#E7E9FC"/>
-    <circle cx="12" cy="12" r="11.5" stroke="black" stroke-opacity="0.1"/>
-    <g clip-path="url(#clip0_297083_8299)">
-    <path d="M16 8.80571L15.1943 8L12 11.1943L8.80571 8L8 8.80571L11.1943 12L8 15.1943L8.80571 16L12 12.8057L15.1943 16L16 15.1943L12.8057 12L16 8.80571Z" fill="#2E2F42"/>
-    </g>
-    <defs>
-    <clipPath id="clip0_297083_8299">
-    <rect width="8" height="8" fill="white" transform="translate(8 8)"/>
-    </clipPath>
-    </defs>
+<symbol id="close-icon" viewBox="0 0 8 8">
+   <g clip-path="url(#clip0_998783_440)">
+<path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42"/>
+</g>
+<defs>
+<clipPath id="clip0_998783_440">
+<rect width="8" height="8" fill="white"/>
+</clipPath>
+</defs>
 </symbol>
 <symbol id="user-icon" viewBox="0 0 13 13">
   <path d="M6 6C7.6575 6 9 4.6575 9 3C9 1.3425 7.6575 0 6 0C4.3425 0 3 1.3425 3 3C3 4.6575 4.3425 6 6 6ZM6 7.5C3.9975 7.5 0 8.505 0 10.5V11.25C0 11.6625 0.3375 12 0.75 12H11.25C11.6625 12 12 11.6625 12 11.25V10.5C12 8.505 8.0025 7.5 6 7.5Z" />
