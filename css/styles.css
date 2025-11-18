@@ -664,6 +664,10 @@ display: flex;
     position: relative;
     margin-bottom: 8px;
 }
+.label-textarea-wrapper{
+    position: relative;
+    margin-bottom: 16px;
+}
 .input-wrapper {
     position: relative;
 
@@ -765,7 +769,7 @@ display: flex;
       align-items: center;
       justify-content: center; 
       fill: transparent; 
-      
+
 }
 
 
